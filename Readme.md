@@ -15,12 +15,6 @@ This project is a FastAPI-based application that processes text files and stores
 - Python 3.8+  
 - PostgreSQL installed and running  
 
-### Clone the Repository  
-```sh  
-git clone https://github.com/your-repo.git  
-cd your-repo  
-```  
-
 ### Install Dependencies  
 ```sh  
 pip install -r requirements.txt  
@@ -89,14 +83,5 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 | embedding | LargeBinary | Serialized embedding vector |  
 | content | TEXT | Original document text |  
 
-## Logging  
-The app logs important events using Python’s logging module. Logs include:  
-- Server startup and shutdown  
-- File processing status  
-- Query execution details  
 
-## Error Handling  
-- Invalid file formats return a `400 Bad Request`.  
-- Empty files or text return a `400 Bad Request`.  
-- Internal processing errors return a `500 Internal Server Error`.  
  
