@@ -1,4 +1,4 @@
-# FastAPI Embedding Storage and Retrieval System  
+# Auraedu fullstack FastAPI Embedding Storage and Retrieval System  
 
 This project is a FastAPI-based application that processes text files and stores their embeddings in a PostgreSQL database. It also provides an API to retrieve relevant text based on user queries using a Hugging Face model.  
 
